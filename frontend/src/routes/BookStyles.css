@@ -1,0 +1,132 @@
+
+.information {
+  background-color: #ebebeb;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 5rem;
+  width: 150%;
+  height: 70vh;
+  line-height: 2rem;
+  padding-left: 2rem; 
+  margin-left: 0;
+ background-color: rgb(207, 233, 245);
+  max-width: 2000px;
+}
+
+.information h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.information p {
+  color: #666;
+  font-size: 18px;
+}
+
+.information ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #666;
+  font-size: 18px;
+}
+
+.information li {
+  margin-bottom: 2px;
+}
+.Book {
+ justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 150%;
+   background-color: rgb(207, 233, 245);
+
+}
+
+.booking-form {
+  background-color: antiquewhite;
+  padding: 2px;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+  width: 50%;
+  margin: 0 auto;
+}
+
+.booking-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.booking-form form {
+  display: grid;
+  width: 50%;
+ 
+}
+
+.booking-form .form-group {
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  font-weight: bold;
+}
+
+.booking-form select,
+.booking-form input[type="text"],
+.booking-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking-form button[type="submit"] {
+  width: 50%;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Media Query for responsiveness */
+
+@media only screen and (max-width: 850px) {
+  .information{
+    width: 100%;
+ 
+  }
+  .information p{
+       font-size: 1rem;
+       font-weight: bold;
+  }
+  .information ul{
+    font-size: 14px;
+  }
+  .booking-form {
+    max-width: 800px;
+    width: 90%;
+  }
+
+  .booking-form form {
+    flex-direction: column;
+    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Book {
+    margin-top: .5rem;
+  }
+
+  .booking-form {
+    height: auto;
+  }
+}

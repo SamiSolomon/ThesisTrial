@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-28 11:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\backend\settings.py:102
+msgid "English"
+msgstr ""
+
+#: .\backend\settings.py:103
+msgid "Amharic"
+msgstr ""
+
+#: .\backend\settings.py:104
+msgid "Oromo"
+msgstr ""
+
+#: .\base\models.py:7 .\base\models.py:24 .\base\models.py:44
+msgid "name"
+msgstr ""
+
+#: .\base\models.py:8 .\base\models.py:36 .\base\models.py:46
+msgid "email"
+msgstr ""
+
+#: .\base\models.py:9
+msgid "latitude"
+msgstr ""
+
+#: .\base\models.py:10
+msgid "longitude"
+msgstr ""
+
+#: .\base\models.py:11
+msgid "contact"
+msgstr ""
+
+#: .\base\models.py:12
+msgid "location"
+msgstr ""
+
+#: .\base\models.py:13
+msgid "information"
+msgstr ""
+
+#: .\base\models.py:14
+msgid "image"
+msgstr ""
+
+#: .\base\models.py:26
+msgid "description"
+msgstr ""
+
+#: .\base\models.py:34
+msgid "first name"
+msgstr ""
+
+#: .\base\models.py:35
+msgid "last name"
+msgstr ""
+
+#: .\base\models.py:37
+msgid "appointment date"
+msgstr ""
+
+#: .\base\models.py:38
+msgid "appointment time"
+msgstr ""
+
+#: .\base\models.py:45
+msgid "family name"
+msgstr ""
+
+#: .\base\models.py:47
+msgid "phone"
+msgstr ""
+
+#: .\base\models.py:48
+msgid "hospital"
+msgstr ""
+
+#: .\base\models.py:49
+msgid "message"
+msgstr ""
+
+#: .\base\serializers.py:92 .\base\serializers.py:95
+msgid "Invalid username or password"
+msgstr ""
+
+#: .\base\serializers.py:103
+msgid "Must include username and password"
+msgstr ""
+
+#: .\base\templates\base\base.html:26
+msgid "Go"
+msgstr ""
+
+#: .\base\templates\base\home.html:7
+msgid "Welcome to my site"
+msgstr ""
+
+#: .\base\templates\base\home.html:8
+msgid "This is a sample text that will be translated."
+msgstr ""
+
+#: .\base\views.py:92
+#, python-brace-format
+msgid ""
+"\n"
+"            A new appointment request has been submitted with the following "
+"details:\n"
+"\n"
+"            Hospital: {appointment.hospital}\n"
+"            Service : {appointment.service}\n"
+"            Patient Name: {appointment.first_name} {appointment.last_name}\n"
+"            Appointment Date: {appointment.appointment_date}\n"
+"            Appointment Time: {appointment.appointment_time}\n"
+"        "
+msgstr ""
+
+#: .\base\views.py:104
+msgid "New Appointment Request"
+msgstr ""
+
+#: .\base\views.py:169
+msgid "Latitude and Longitude required"
+msgstr ""

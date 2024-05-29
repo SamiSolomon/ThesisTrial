@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Backend System{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Backend</h1>
+        <h6> List of apis </h6>
+    </header>
+    <nav>
+        <ul>
+            <li><a hre="">api/login</a></li>
+            <li><a href="">api/register</a></li>
+            <li><a href=" ">api/user Profile</a></li>
+            <li><a href="">api/user List</a></li>
+            <li><a href="">api/search</a></li>
+            <li><a href=" ">api/hospitals</a></li>
+            <li><a href="">api/services</a></li>
+            <li><a href=" ">api/nearby Hospitals</a></li>
+            <li><a href=" ">api/feedback</a></li>
+            <li><a href=" ">api/create Appointment</a></li>
+        </ul>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Backend System</p>
+    </footer>
+</body>
+</html>

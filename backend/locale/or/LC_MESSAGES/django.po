@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-27 11:19+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Oromo <LL@li.org>\n"
+"Language: om\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\backend\settings.py:102
+msgid "English"
+msgstr "Ingiliiziffa"
+
+#: .\backend\settings.py:103
+msgid "Amharic"
+msgstr "Amhariffa"
+
+#: .\backend\settings.py:104
+msgid "Oromo"
+msgstr "Oromiffa"
+
+#: .\base\models.py:7 .\base\models.py:24 .\base\models.py:44
+msgid "name"
+msgstr "maqaa"
+
+#: .\base\models.py:8 .\base\models.py:36 .\base\models.py:46
+msgid "email"
+msgstr "imeeli"
+
+#: .\base\models.py:9
+msgid "latitude"
+msgstr "laatiitiyuudii"
+
+#: .\base\models.py:10
+msgid "longitude"
+msgstr "longitiiyuudii"
+
+#: .\base\models.py:11
+msgid "contact"
+msgstr "qunnamtii"
+
+#: .\base\models.py:12
+msgid "location"
+msgstr "iddoo"
+
+#: .\base\models.py:13
+msgid "information"
+msgstr "odeeffannoo"
+
+#: .\base\models.py:14
+msgid "image"
+msgstr "suuraa"
+
+#: .\base\models.py:26
+msgid "description"
+msgstr "ibsa"
+
+#: .\base\models.py:34
+msgid "first name"
+msgstr "maqaa jalqabaa"
+
+#: .\base\models.py:35
+msgid "last name"
+msgstr "maqaa abbaa"
+
+#: .\base\models.py:37
+msgid "appointment date"
+msgstr "guyaa muudama"
+
+#: .\base\models.py:38
+msgid "appointment time"
+msgstr "yeroo muudama"
+
+#: .\base\models.py:45
+msgid "family name"
+msgstr "maqaa maatii"
+
+#: .\base\models.py:47
+msgid "phone"
+msgstr "bilbila"
+
+#: .\base\models.py:48
+msgid "hospital"
+msgstr "hoospitaala"
+
+#: .\base\models.py:49
+msgid "message"
+msgstr "ergaa"
+
+#: .\base\serializers.py:92 .\base\serializers.py:95
+msgid "Invalid username or password"
+msgstr "Maqaa fayyadamaa ykn jecha iccitiin sirrii miti"
+
+#: .\base\serializers.py:103
+msgid "Must include username and password"
+msgstr "Maqaa fayyadamaa fi jecha iccitiin barbaachisaa dha"
+
+#: .\base\views.py:92
+#, python-brace-format
+msgid ""
+"\n"
+"            A new appointment request has been submitted with the following "
+"details:\n"
+"\n"
+"            Hospital: {appointment.hospital}\n"
+"            Service : {appointment.service}\n"
+"            Patient Name: {appointment.first_name} {appointment.last_name}\n"
+"            Appointment Date: {appointment.appointment_date}\n"
+"            Appointment Time: {appointment.appointment_time}\n"
+"        "
+msgstr ""
+"\n"
+"            Gaaffii muudamaa haaraa dhiyaateera akkasumas\n"
+"\n"
+"            Hoospitaala: {appointment.hospital}\n"
+"            Tajaajila: {appointment.service}\n"
+"            Maqaa Fayyaa: {appointment.first_name} {appointment.last_name}\n"
+"            Guyyaa Muudamaa: {appointment.appointment_date}\n"
+"            Yeroo Muudamaa: {appointment.appointment_time}\n"
+"        "
+
+#: .\base\views.py:104
+msgid "New Appointment Request"
+msgstr "Gaaffii Muudamaa Haaraa"
+
+#: .\base\views.py:169
+msgid "Latitude and Longitude required"
+msgstr "Laatiitiyuudii fi Longitiiyuudii barbaachisaa dha"

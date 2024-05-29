@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+/* main.css */
+
+@import 'normalize.css';
+*{
+
+  box-shadow: 0 5px 15px black(0,0);
+  font-family: "Poppins", sans-serif;
+
+}
+ 
+body{
+   
+  color-scheme: lightblue;  background-color: #f1f1f1; /* Set a base background color */
+  background-image: linear-gradient(to bottom right, #ffffff, #f1f1f1); /* Apply a gradient background */
+    background-repeat: no-repeat; /* Prevent background image repetition */
+    background-attachment: fixed; /* Fix the background position */
+  display: flex;
+  width: 110%;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  
+}
+.app {
+   /* Adjust the value as per your preference */
+  margin: 0 auto;
+  padding:0  20px;
+ 
+
+}
+ .html {
+  overflow-x: hidden !important;
+}

@@ -1,0 +1,182 @@
+
+.listFacility{
+    height: 100%;
+    
+    background: linear-gradient(to bottom, rgb(165, 240, 250), #b7e7e8, #8fa3a6);
+    padding-left: 4rem;
+    box-sizing: inherit;
+}
+.listFacility h1{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.facility{
+    
+    width: 100%;
+    align-items: left;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 2rem;
+  
+}
+.description{
+    font-weight: bold;
+   
+}
+
+.facility h1{
+    font-size: 2rem;
+
+}
+.facility h3{
+    align-items: right;
+}
+.fac-text{
+    display: inline-block;
+    margin-bottom: 10px; 
+    padding: .5px;
+    border-collapse: 2px;
+    align-items: left;
+}
+ 
+
+.first-fac{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.6rem;
+
+}
+ 
+ 
+ .fac-text h3{
+    padding-bottom: 0px;
+}
+
+.image{
+    display: flex;
+    height: 50%;
+    
+}
+.image img{
+    padding-top: 50px;
+    justify-content: space-between;
+    height: 50vh;
+    right: 0;
+    
+    
+   
+        
+}
+.image2{
+    display: grid;
+    z-index: -99;
+  
+}
+.image2 img{
+    padding-top: 50px;
+    height: 50vh; 
+}
+.fac-text h3:hover{
+    cursor: pointer;
+    color: brown;
+}
+.second-fac h4:hover {
+    cursor: pointer;
+    color: brown;
+}
+.image img:hover{
+    cursor: pointer;
+    color:brown;
+    opacity: 50%;
+}
+.image2 img:hover{
+    cursor: pointer;
+    color:brown;
+    opacity: 50%;
+}
+.text{
+    font-size: 2rem;
+}
+.button{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+ 
+}
+.serv{
+ 
+border-radius: .5rem;
+padding:2rem 2rem;
+border-style: none;
+font-size: 1.5rem;
+margin: 2rem; 
+width: 30%;
+   
+   
+}
+.All{
+     font-size: 1.7rem;
+     justify-content: right;
+     text-decoration: none;
+     z-index: 1;
+     font-weight: bold;
+     color: rgb(76, 99, 252);
+     margin-left:50rem ;
+     line-height: .5px;
+}
+.All:hover{
+    cursor: pointer;
+    color: blueviolet ;
+    text-decoration: underline;
+    
+}
+.serv:hover{
+    cursor:pointer;
+    background-color: lightblue;
+    
+}
+@media screen and (max-width:850px){
+.listFacility{
+  width: 100%;
+  height: 75%;
+
+ 
+}
+.facility{
+width: 100%;
+padding: 0px;
+height: auto;
+flex-direction: column;
+ align-items: left;
+  
+}
+.button{
+    width: 100%;   
+}
+.All{
+    width: 100%;
+    margin-left: 20rem;
+    font-size: .75rem;
+    
+    
+}
+ 
+.fac-text{
+  width: 100%;
+  -webkit-box-flex: -1;
+}
+.first-fac{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+ 
+    
+
+}

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-27 11:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Amharic <LL@li.org>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\backend\settings.py:102
+msgid "English"
+msgstr "እንግሊዝኛ"
+
+#: .\backend\settings.py:103
+msgid "Amharic"
+msgstr "አማርኛ"
+
+#: .\backend\settings.py:104
+msgid "Oromo"
+msgstr "ኦሮምኛ"
+
+#: .\base\models.py:7 .\base\models.py:24 .\base\models.py:44
+msgid "name"
+msgstr "ስም"
+
+#: .\base\models.py:8 .\base\models.py:36 .\base\models.py:46
+msgid "email"
+msgstr "ኢሜል"
+
+#: .\base\models.py:9
+msgid "latitude"
+msgstr "ኬር"
+
+#: .\base\models.py:10
+msgid "longitude"
+msgstr "የኬር"
+
+#: .\base\models.py:11
+msgid "contact"
+msgstr "እውቂያ"
+
+#: .\base\models.py:12
+msgid "location"
+msgstr "አካባቢ"
+
+#: .\base\models.py:13
+msgid "information"
+msgstr "መረጃ"
+
+#: .\base\models.py:14
+msgid "image"
+msgstr "ምስል"
+
+#: .\base\models.py:26
+msgid "description"
+msgstr "መግለጫ"
+
+#: .\base\models.py:34
+msgid "first name"
+msgstr "ስም"
+
+#: .\base\models.py:35
+msgid "last name"
+msgstr "የአባት ስም"
+
+#: .\base\models.py:37
+msgid "appointment date"
+msgstr "ቀን"
+
+#: .\base\models.py:38
+msgid "appointment time"
+msgstr "ሰዓት"
+
+#: .\base\models.py:45
+msgid "family name"
+msgstr "የቤተሰብ ስም"
+
+#: .\base\models.py:47
+msgid "phone"
+msgstr "ስልክ"
+
+#: .\base\models.py:48
+msgid "hospital"
+msgstr "ሆስፒታል"
+
+#: .\base\models.py:49
+msgid "message"
+msgstr "መልእክት"
+
+#: .\base\serializers.py:92 .\base\serializers.py:95
+msgid "Invalid username or password"
+msgstr "የተሳሳተ የተጠቃሚ ስም ወይም የይለፍ ቃል"
+
+#: .\base\serializers.py:103
+msgid "Must include username and password"
+msgstr "የተጠቃሚ ስም እና የይለፍ ቃል አስፈላጊ ነው"
+
+#: .\base\views.py:92
+#, python-brace-format
+msgid ""
+"\n"
+"            A new appointment request has been submitted with the following "
+"details:\n"
+"\n"
+"            Hospital: {appointment.hospital}\n"
+"            Service : {appointment.service}\n"
+"            Patient Name: {appointment.first_name} {appointment.last_name}\n"
+"            Appointment Date: {appointment.appointment_date}\n"
+"            Appointment Time: {appointment.appointment_time}\n"
+"        "
+msgstr ""
+"\n"
+"            አዲስ የቀጠሮ ጥያቄ በተከታታይ ዝርዝር ተላልፏል:\n"
+"\n"
+"            ሆስፒታል: {appointment.hospital}\n"
+"            አገልግሎት : {appointment.service}\n"
+"            የሕብረት ስም: {appointment.first_name} {appointment.last_name}\n"
+"            የቀጠሮ ቀን: {appointment.appointment_date}\n"
+"            የቀጠሮ ሰዓት: {appointment.appointment_time}\n"
+"        "
+
+#: .\base\views.py:104
+msgid "New Appointment Request"
+msgstr "አዲስ የቀጠሮ ጥያቄ"
+
+#: .\base\views.py:169
+msgid "Latitude and Longitude required"
+msgstr "ኬር እና የኬር አስፈላጊ ነው"
+
+#: .\base\views.py:1
+msgid "to sell the medicine"
+msgstr "መድኃኒት ለመሸጥ"
+
+#: .\base\views.py:2
+msgid "Provides immediate care for life-threatening conditions, injuries, and illnesses. Open 24/7."
+msgstr "ለህይወት አስጊ ሁኔታዎች፣ ቁስሎች፣ እና በሽታዎች ድንገተኛ እገዛ ይሰጣል። 24/7 በክፍት ነው።"
+
+#: .\base\views.py:3
+msgid "Performs operations and surgical procedures, both elective (planned) and emergency. Includes preoperative and postoperative care."
+msgstr "ሁሉም እንቅስቃሴዎችን እና ቀዶ ጥገናዎችን እንቁስቁስ እና አልቅስ ያካትታል። ቅድሚያ እና ቀጣይ እንክብካቤን ይጨምራል።"
+
+#: .\base\views.py:4
+msgid "Medical care for infants, children, and adolescents. Includes neonatal intensive care units (NICU) and pediatric intensive care units (PICU)."
+msgstr "ለሕፃናት፣ ህጻናት፣ እና ወጣቶች ሕክምና እንክብካቤ። የሕፃናት ግንባር እና ህጻናት ግንባር እንክብካቤን ይጨምራል።"
+
+#: .\base\views.py:5
+msgid "Care for pregnant women, childbirth, and postpartum care. Includes labor and delivery, neonatal care, and prenatal services."
+msgstr "ለእርጉዝ ሴቶች እንክብካቤ፣ ወሊድ፣ እና የህክምና እንክብካቤ። የእርጉዝነት እና ህክምና እንክብካቤን ይጨምራል።"
+
+#: .\base\views.py:6
+msgid "Yekatit 12 Hospital, located in the 6 Kilo area, offers a wide range of medical services to meet the needs of the community. Our state-of-the-art facilities and experienced medical staff ensure that patients receive the highest quality care"
+msgstr "በ6 ኪሎ አካባቢ የተገኘ የየካቲት 12 ሆስፒታል ለማህበረሰቡ ፍላጎት ስፋት ያለውን የሕክምና አገልግሎት ያቀርባል። የእኛ የመጀመሪያ የጥበቃ መሳሪያዎችና የተሞክሮ የሕክምና ሰራተኞች ታክቶ ተሞክሮ እንክብካቤ ያገኙም።"
+
+#: .\base\views.py:7
+msgid "Specialized hospitals are healthcare facilities that focus on providing advanced and targeted medical care in specific areas of medicine. These hospitals are equipped with specialized equipment, highly trained medical staff, and dedicated departments for various health conditions"
+msgstr "በልዩ ልዩ የሕክምና ክፍሎች ላይ ትኩረት ስትሰጥ የሕክምና እንክብካቤ ተቋማት የሆኑ ልዩ ሆስፒታሎች ለበለይ በተዘረዘሩ የሕክምና አገልግሎት የተሞክሮ የመሳሪያዎችና የሞክሮ ሰራተኞች ያበቃል።"
+
+#: .\base\views.py:8
+msgid "Saint Paul Hospital, located at Pastor Square, is dedicated to providing top-notch healthcare services to the community. We offer a wide array of services to ensure comprehensive medical care for our patients,"
+msgstr "በቤስተር አካባቢ የሚገኘው የአማርኛ ሆስፒታል ለማህበረሰቡ የጠንካራ የሕክምና አገልግሎት ማቅረብ ላይ ተጣየ። ለደኞቻችን ምቹ የሆነ የሕክምና እንክብካቤን ለማስቻል በስፋት ያለ አገልግሎት እንቀርባለን።"
+
+

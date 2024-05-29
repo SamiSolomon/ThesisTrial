@@ -1,0 +1,78 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+   padding-left: 2rem;
+    background-color: rgb(207, 233, 245);
+    width: 110%;
+  }
+  .healthcontact{
+    
+    padding-top: 5rem;
+    width: 100%;
+    margin-right: 2rem;
+    
+
+  }
+  .contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact p{
+    text-align: center;
+  }
+  .contact form {
+    display: grid;
+    grid-template-columns: 2fr ;
+    gap: 20px;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .contact label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .contact select{
+    width: 100%;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .contact button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .contact .submit-container {
+    grid-column: 1 / -1;
+  }
+  
+  .contact button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  @media screen and (max-width: 768px) {
+    .healthcontact {
+      padding-left: 1rem;
+      width: 80%;
+    }
+   
+    .contact form {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact input,
+    .contact textarea {
+      width: 100%;
+    }
+  }

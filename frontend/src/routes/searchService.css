@@ -1,0 +1,67 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+   
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+  }
+  form{
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+   button[type="submit"]{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+   }
+   button[type="submit"]:hover{
+    background-color: #0056b3;
+   }
+   button[type="submit"]:focus{
+    outline: none;
+   }
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  @media screen and (max-width : 850px) {
+    .search-bar-container{
+      padding: 10px;
+      z-index: 100;
+
+    }
+    input[type="text"]{
+     margin-bottom: 10px;
+    }
+  }

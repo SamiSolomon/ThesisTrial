@@ -1,0 +1,81 @@
+/* Style the container */
+.register-page {
+    width:100vw;
+    height: 100vh;
+    margin-top: 40px;
+  }
+  
+  .username-input{
+    margin-right: 45px;
+  }
+  
+  .register-container {
+  
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  /* Style form elements */
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .register-container form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container form > div:nth-child(1) {
+    margin-left: 50px;
+    /* Your styles for the first child element of the form */
+  }
+  
+  .register-container form  div {
+    margin-bottom: 20px;
+  }
+  
+  .register-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .register-container input[type="text"]{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-container input[type="email"],
+  .register-container input[type="password"]
+   {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-container button[type="submit"] {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .register-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  

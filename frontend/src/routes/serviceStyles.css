@@ -1,0 +1,102 @@
+
+.Health {
+ 
+padding-left: .5rem; 
+background: linear-gradient(to bottom, rgb(164, 217, 241), #a9e2fd, #88ecfe)
+    }
+   .Health h1 {
+      font-size: 32px;
+      color: #333;
+      padding-top: 5rem;
+      margin-left: 3rem;
+     
+    }
+    .HealthService {
+      margin-top: 4rem;
+      display: flex;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .HealthService h1 {
+      margin-bottom: 10px;
+    }
+    
+    .HealthService p {
+      margin-bottom: 20px;
+    }
+    
+    .hospitalImage {
+      width: 50%;
+      max-width: 600px;
+      height: auto;
+      margin-bottom: 20px;
+      flex: 1;
+      margin-right : 10rem;
+      object-fit: cover;
+      position: relative;
+    }
+    
+    .Health p {
+      font-size: 16px;
+      color: #666;
+    }
+    
+    .butn {
+      margin-top: 20px;
+  
+    }
+    
+    .top {
+      font-size: 18px;
+      color: #333;
+    }
+    
+    .topService {
+      border-radius: .5rem;
+      padding:2rem 2rem;
+      border-style: none;
+      font-size: 1.5rem;
+      margin: 2rem; 
+      width: 30%;
+    }
+    .All {
+      font-size: 20px;
+      color: #333;
+      margin-top: 25px;
+    }
+    
+    .fa-arrow-alt-circle-right {
+      margin-left: 5px;
+    }
+    .topService:hover{
+    cursor:pointer;
+    background-color: rgb(194, 200, 201);
+  }
+  @media screen and(max-width:850px) {
+    .Health{
+      font-size: 16px;
+     
+       
+    }
+  .HealthService {
+    margin-top: 4rem;
+    margin-bottom: 10px;
+    
+    }
+    .HealthService p {
+      font-size: 14px;
+    }
+    .HealthService h1 {
+      font-size: 20px;
+    }
+  .topService{
+     padding:  8px;
+
+    }
+ .hospitalImage {
+    width: 100%;
+      max-width: 200%;
+      margin-bottom: 10px;
+    }
+  }

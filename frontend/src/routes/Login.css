@@ -1,0 +1,96 @@
+/* Style the container */
+
+
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .login-container {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+    height: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  /* Style form elements */
+  .login-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .login-container h6 {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: -10px;
+    text-decoration: underline;
+    font-weight: lighter;
+    color: blue;
+  }
+  
+  .login-container form {
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .login-container form > div {
+    margin-bottom: 20px;
+  } 
+  .login-container label {
+    margin-bottom: 5px; 
+  }
+  
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container button[type="submit"] {
+    width: 60%;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-container button[type="button"] {
+    width: 60%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #191b1d;
+    color: #fff;
+    cursor: pointer;
+  }
+  .login-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .login-container button[type="button"]:hover {
+    background-color:#051821;
+  }
+  
+  .email-label{
+    margin-left: 20px;
+  }
+  
+  .email-input{
+    margin-left: 10px;
+    width: 300px
+  }

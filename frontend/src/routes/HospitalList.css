@@ -1,0 +1,136 @@
+/* HospitalList.css */
+
+.listHospital {
+  width: 120%;
+  margin-left: 0;
+  margin-top: 5rem;
+  height: 80vh;
+  background-color: rgb(207, 233, 245);
+}
+
+.Hospit {
+  background-color: rgb(207, 233, 245);
+  width: 120%;
+}
+
+.Hospitals {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 120%;
+  overflow-x: none;
+  padding: 0 1rem;
+}
+
+.Hospitals p {
+  font-size: 18px;
+}
+
+.Hospitals h1 {
+  font-size: 32px;
+}
+
+.Hospital-image {
+flex: 1;
+display: block;
+border-radius: 5px;
+width: 80%;
+height: 75vh;
+object-fit: cover;
+position: relative;
+}
+
+.hospital-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  width: 100%;
+  padding-top: 4rem;
+  padding-left: 0;
+  background: linear-gradient(to bottom, rgb(218, 232, 239), #c2e5f5, #e3f7fa);
+}
+
+.hospital-card {
+  width: 300px;
+  margin-left: 0;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+.hospital-card:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: beige;
+}
+
+.hospital-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.hospital-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hospital-details {
+  padding: 10px;
+}
+
+.hospital-details h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.hospital-details i {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+  vertical-align: middle;
+  width: 24px;
+  display: flex;
+}
+
+.hospital-details p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.hospital-details a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.hospital-details a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .Hospitals {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .Hospital-image {
+    height: 10vh;
+  }
+
+  .hospital-card {
+    width: 90%;
+    max-width: 300px;
+    margin-top: 9rem;
+  }
+  .Hospitals p {
+    font-size: 15px;
+  }
+}

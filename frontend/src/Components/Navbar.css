@@ -1,0 +1,144 @@
+.NavbarItems{
+    background-color:  lightblue;
+    display:flex;
+    align-items: center;
+    width: 100%;  
+    height: 88px;
+    top: 0px;
+    left: 1px;
+    transform: (-50%);
+    justify-content: space-between;
+    position: absolute;  
+}
+.NavbarItems h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .nav-menu li {
+    margin-right: 20px;
+    flex: 0 0 auto;
+  }
+  .nav-menu a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .nav-menu li:last-child {
+    margin-right: 0;
+  }
+ 
+ 
+.navbar-logo{
+    color: rgb(26, 27, 27);
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+.nav-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    align-items:center;
+    list-style: none ;
+    
+}
+.nav-links{
+    display: flex;
+    text-decoration: none;
+    color: #212b65;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 0 0 0;
+    white-space: nowrap;
+    align-items: right;
+
+}
+.nav-button{
+   border-radius: 4px;
+   font-size: 1.5rem; 
+   background-color: #86a4f7;
+   padding: .75rem;
+}
+.nav-button:hover{
+  background-color: #aabdf4;
+
+     
+ }
+.nav-links i{
+    padding-right: 10px;
+ 
+
+}
+.nav-links:hover{
+    color: rgb(100, 119, 138);
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+
+}
+.menu-icons{
+    display: none;
+}
+@media screen and (max-width:850px) {
+    .NavbarItems{
+        z-index: 100;
+        position: absolute;
+        width: 120%;
+        
+    }
+    
+    .nav-menu{
+        
+        flex-direction:column;
+        background :white;
+        margin-top: 3rem;
+        position: absolute;
+        top:2rem;
+        left:-100;
+        opacity:0;
+        align-items:center;
+        z-index: -1; 
+      
+       
+      
+        
+    }
+    .nav-menu.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+ 
+
+    }
+    .nav-links{
+        display: flex;
+        width: 50%;
+        height: 1vh;
+        align-content: center;
+        color: #222;
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 2rem 0;
+
+       
+    }
+    .nav-links:hover{
+         
+        color: rgb(159, 207, 249);
+        border-radius: 4px;
+        transition: none;
+      
+}
+    .menu-icons{
+        display: flex;
+        margin : 20%;
+        
+         
+
+    }
+    .menu-icons i{
+        font-size: 1.2rem;
+        color: #970a87;
+    }
+}

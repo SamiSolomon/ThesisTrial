@@ -1,0 +1,81 @@
+.welcome {
+    padding-top: 2.5rem;
+    background-color: rgb(207, 233, 245);
+    
+    
+  }
+  
+  .Home {
+    text-align: left;
+    padding-top: 3rem;
+    display: flex;
+    margin-left: 2rem;
+  }
+  
+  .Home h1 {
+    font-size: 1.5rem;
+  }
+  
+  .Home p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+  }
+  
+  .List {
+    padding: 1rem;
+    width: 80%;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: none;
+  }
+  
+  .List a {
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  
+  .List i {
+    margin-left: 10px;
+  }
+  
+  .List:hover {
+    background-color: beige;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width: 850px) {
+    .Home {
+      text-align: left;
+      flex-direction: column;
+      width: 100%;
+    }
+    .Home h1{
+        width: 100%;  
+        font-size: .5rem;
+    } 
+    .Home p {
+        width: 60%;
+        font-size: .5rem;
+        
+      }
+    .home-image {
+      width: 80%;
+      margin-top: 2rem;
+    }
+  
+    .List {
+      width: 60%;
+    }
+     
+  }

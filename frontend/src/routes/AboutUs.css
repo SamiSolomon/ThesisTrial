@@ -1,0 +1,145 @@
+/* AboutUs.css */
+
+.About {
+ margin-left: 0;
+  margin-top: 5rem;
+  background-color: rgb(207, 233, 245);
+  display: block;
+  width: 90%;
+}
+
+.About h1 {
+  font-size: 32px;
+  margin-left: 1rem;
+}
+
+.Healthcare {
+  display: flex;
+  
+ 
+}
+ 
+  
+.Healthcare p {
+  margin-left: 1rem;
+  margin-right: 3rem;
+  font-size: 16px;
+   
+}
+
+ .Healthcare .hospital-image {
+  flex: 1;
+  border-radius: 5px;
+  width: 60%;
+  height: 35vh;
+  object-fit: cover;
+ position: relative;
+
+  }
+   
+
+.know {
+ margin-top: 50px;
+ background-color: aliceblue;
+ height: 70vh;
+}
+
+.know h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.ourWork {
+  display: flex;
+  gap: 3rem;
+  margin-top: 30px;
+  margin-bottom: 5rem;
+  
+}
+
+.vision,
+.links {
+  text-align: center;
+  width:30%;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 87%);
+  border-radius: 5px;
+  margin-bottom: 5rem;
+ 
+ 
+}
+.vision:hover,
+.links:hover{
+  box-shadow:   0px 2px 4px rgba(0, 0, 0, 0.1) ;
+}
+.vision i,
+.links i {
+  display: flex;
+  margin-left: 11rem;
+  font-size: 50px;
+  margin-right: 7rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  color: rgb(18, 57, 199);
+   
+   
+}
+
+.vision a,
+.links a {
+  
+  color: #e2b9e8;
+  text-decoration:none ;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.vision a:hover,
+.links a:hover {
+  text-decoration: underline;
+ 
+}
+
+#vision,
+#who-we-are {
+  margin-top: 30px;
+}
+
+#vision p,
+#who-we-are p {
+  font-size: 18px;
+}
+@media screen and (max-width : 850px){
+   
+  .Healthcare {
+     flex-direction: column;
+  }
+  .know h2 {
+    font-size: 2rem;
+  }
+  
+    .Healthcare p{
+      width: 90%;
+      font-size: .75rem;
+       
+    }
+    .Healthcare .hospital-image{
+      width: 100%;
+
+    }
+    .vision,
+    .links{
+      width: 100%;
+    }
+    .ourWork{
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+    }
+    .vision i,
+    .links i{
+      font-size: 4rem;
+      max-width: 100%;
+    }
+}

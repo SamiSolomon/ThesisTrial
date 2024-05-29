@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-28 11:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "English"
+msgstr "Inglés"
+
+msgid "Amharic"
+msgstr "Amárico"
+
+msgid "Oromo"
+msgstr "Oromo"
+
+msgid "name"
+msgstr "nombre"
+
+msgid "email"
+msgstr "correo electrónico"
+
+msgid "latitude"
+msgstr "latitud"
+
+msgid "longitude"
+msgstr "longitud"
+
+msgid "contact"
+msgstr "contacto"
+
+msgid "location"
+msgstr "ubicación"
+
+msgid "information"
+msgstr "información"
+
+msgid "image"
+msgstr "imagen"
+
+msgid "description"
+msgstr "descripción"
+
+msgid "first name"
+msgstr "nombre"
+
+msgid "last name"
+msgstr "apellido"
+
+msgid "appointment date"
+msgstr "fecha de la cita"
+
+msgid "appointment time"
+msgstr "hora de la cita"
+
+msgid "family name"
+msgstr "nombre de familia"
+
+msgid "phone"
+msgstr "teléfono"
+
+msgid "hospital"
+msgstr "hospital"
+
+msgid "message"
+msgstr "mensaje"
+
+msgid "Invalid username or password"
+msgstr "Nombre de usuario o contraseña inválidos"
+
+msgid "Must include username and password"
+msgstr "Debe incluir nombre de usuario y contraseña"
+
+msgid "Go"
+msgstr "Ir"
+
+msgid "Welcome to my site"
+msgstr "Bienvenido a mi sitio"
+
+msgid "This is a sample text that will be translated."
+msgstr "Este es un texto de ejemplo que será traducido."
+
+#, python-brace-format
+msgid ""
+"\n"
+"            A new appointment request has been submitted with the following "
+"details:\n"
+"\n"
+"            Hospital: {appointment.hospital}\n"
+"            Service : {appointment.service}\n"
+"            Patient Name: {appointment.first_name} {appointment.last_name}\n"
+"            Appointment Date: {appointment.appointment_date}\n"
+"            Appointment Time: {appointment.appointment_time}\n"
+"        "
+msgstr ""
+"\n"
+"            Se ha enviado una nueva solicitud de cita con los siguientes "
+"detalles:\n"
+"\n"
+"            Hospital: {appointment.hospital}\n"
+"            Servicio: {appointment.service}\n"
+"            Nombre del paciente: {appointment.first_name} {appointment.last_name}\n"
+"            Fecha de la cita: {appointment.appointment_date}\n"
+"            Hora de la cita: {appointment.appointment_time}\n"
+"        "
+
+msgid "New Appointment Request"
+msgstr "Nueva solicitud de cita"
+
+msgid "Latitude and Longitude required"
+msgstr "Latitud y longitud requeridas"
+
+msgid "pharmacist"
+msgstr "farmacéutico"
+
+msgid "to sell the medicine"
+msgstr "vender medicamentos"
+
+msgid "Emergency"
+msgstr "Emergencia"
+
+msgid "Provides immediate care for life-threatening conditions, injuries, and illnesses. Open 24/7."
+msgstr "Proporciona atención inmediata para condiciones que amenazan la vida, lesiones y enfermedades. Abierto 24/7."
+
+msgid "Surgical"
+msgstr "Quirúrgico"
+
+msgid "Performs operations and surgical procedures, both elective (planned) and emergency. Includes preoperative and postoperative care."
+msgstr "Realiza operaciones y procedimientos quirúrgicos, tanto electivos (planificados) como de emergencia. Incluye cuidado preoperatorio y postoperatorio."
+
+msgid "Pediatric Services"
+msgstr "Servicios Pediátricos"
+
+msgid "Medical care for infants, children, and adolescents. Includes neonatal intensive care units (NICU) and pediatric intensive care units (PICU)."
+msgstr "Atención médica para bebés, niños y adolescentes. Incluye unidades de cuidados intensivos neonatales (NICU) y unidades de cuidados intensivos pediátricos (PICU)."
+
+msgid "Maternity"
+msgstr "Maternidad"
+
+msgid "Care for pregnant women, childbirth, and postpartum care. Includes labor and delivery, neonatal care, and prenatal services."
+msgstr "Atención para mujeres embarazadas, parto y cuidado posparto. Incluye trabajo de parto y parto, cuidado neonatal y servicios prenatales."
+
+msgid "MENELIK II HOSPITAL"
+msgstr "HOSPITAL MENELIK II"
+
+msgid "6 kilo"
+msgstr "6 kilo"
+
+msgid "something you have to do it another thing you have to consider"
+msgstr "algo que debes hacer otra cosa que debes considerar"
+
+msgid "YEKATIT 12 HOSPITAL"
+msgstr "HOSPITAL YEKATIT 12"
+
+msgid "Yekatit 12 Hospital, located in the 6 Kilo area, offers a wide range of medical services to meet the needs of the community. Our state-of-the-art facilities and experienced medical staff ensure that patients receive the highest quality care"
+msgstr "El Hospital Yekatit 12, ubicado en el área de 6 Kilo, ofrece una amplia gama de servicios médicos para satisfacer las necesidades de la comunidad. Nuestras instalaciones de última generación y el personal médico experimentado garantizan que los pacientes reciban la atención de la más alta calidad."
+
+msgid "SAINT PAUL HOSPITAL,"
+msgstr "HOSPITAL SAN PABLO"
+
+msgid "Saint Paul Hospital, located at Pastor Square, is dedicated to providing top-notch healthcare services to the community. We offer a wide array of services to ensure comprehensive medical care for our patients,"
+msgstr "El Hospital San Pablo, ubicado en Pastor Square, se dedica a proporcionar servicios de atención médica de primera calidad a la comunidad. Ofrecemos una amplia gama de servicios para garantizar una atención médica integral a nuestros pacientes."
+
+msgid "Black Lion Hospital"
+msgstr "Hospital León Negro"
+
+msgid "Specialized hospitals are healthcare facilities that focus on providing advanced and targeted medical care in specific areas of medicine. These hospitals are equipped with specialized equipment, highly trained medical staff, and dedicated departments for various health conditions"
+msgstr "Los hospitales especializados son instalaciones de atención médica que se centran en proporcionar atención médica avanzada y específica en áreas específicas de la medicina. Estos hospitales están equipados con equipos especializados, personal médico altamente capacitado y departamentos dedicados para diversas condiciones de salud."
+
+msgid "Zewditu Memorial Hospital"
+msgstr "Hospital Memorial Zewditu"
